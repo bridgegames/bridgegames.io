@@ -1,168 +1,124 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Brigde Games</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brigde Games</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/style.css">
 
-    <!-- navbar @mdx -->
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="#">
-        </a>
-        <img src="assets\logo.png" class="logo" width="112" height="28">
-         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-         <button class="button"> <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span></button>
-        </a>
-    </div>
-        <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">    
-        </div>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+
+  <!-- navbar @mdx -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <a class="navbar-brand" href="#">
+        <img src="assets\logo.png" class="logo">
+      </a>
+
+      <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
-          <div class="navbar-item">
-            <nav class="breadcrumb has-bullet-separator" aria-label="breadcrumbs">
-              <ul>
-                <li><a href="#">sobre</a></li>
-                <li><a href="#">jogos</a></li>
-                <li><a href="#">contato</a></li> 
-                <p>|</p>
-                <a href="#"><img src="assets\ig.png" class="navbar-icon"/></a>
-                <a href="#"><img src="assets\email.png" class="navbar-icon"/></a>
-                </ul>
-            </nav>
-            </aside>
+          <a class="navbar-item">
+            sobre
+          </a>
+
+          <span class="navbar-spacing">•</span>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link ">
+              jogos
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item navbar-b">
+                hopeless
+              </a>
+              <hr class="navbar-divider">
+
+              <a class="navbar-item navbar-b">
+                navinha topzera
+              </a>
+            </div>
           </div>
+
+          <span class="navbar-spacing">•</span>
+
+          <a class="navbar-item">
+            contato
+          </a>
+          <span class="navbar-spacing" style="margin-right: 20px;">|</span>
+
+
+          <a href="#"  class="navbar-icon" ><img src="assets\ig.png"/></a>
+          <a href="mailto:facapejogos@outlook.com" class="navbar-icon"> <img src="assets\email.png" /></a>
+
+        </div>
+
+
+      </div>
+
+  </nav>
+  <article class="m-sobre art">
+<br><br><br><br><br>
+
+    <div class="container">
+
+      <div class="columns">
+        <div class="column ">
+          <h1 class="title has-text-white">Bridge Games</h1>
+          <h3 class="subtitle has-text-white is-4">indústria de games multibilionária subsidiada em Petrolina-PE</h3>
+            <p class="content is-medium">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet est viverra, sodales lacus eu, mollis diam. Curabitur ac odio luctus, facilisis urna at, volutpat sem. Fusce pulvinar, justo a sagittis fringilla, elit nisl lobortis tortor, eu consequat magna enim et libero. Aenean pharetra ornare viverra. Nulla id lorem nisi. Cras rutrum felis metus, sed vehicula nunc imperdiet nec. Quisque vehicula neque ut quam malesuada egestas. Curabitur eu tincidunt ipsum, non placerat neque.
+            </p>
+        </div>
+        <div class="column">
+          <img src="assets/games_pc.jpg">
         </div>
       </div>
-    </nav>
-    
-    <!-- sobre @mdx -->
-    <div class="m-sobre"><img src="assets/bg1.png" width="100%"></div>
-    
-    <!-- jogos @mdx -->
-    <div class="m-jogos"><img src="assets/bg2.png" width="100%"></div>
 
-    <!-- contato @mdx -->
-    <div class="column is-12 m-contato">
-      <div class="column is-half is-offset-one-quarter">
-        <div class="field">
-      <label class="label">Nome</label>
-      <div class="control">
-        <input class="input" type="text" placeholder="Digite seu nome">
-      </div>
     </div>
-      
-    <div class="field">
-      <label class="label">Email</label>
-      <div class="control">
-        <input class="input" type="email" placeholder="exemplo@exemplo.com">       
-      </div>
-      
-    </div> 
-    
-    <div class="field">
-      <label class="label">Mensagem</label>
-      <div class="control">
-        <textarea class="textarea" placeholder="Digite seu texto aqui"></textarea>
-      </div>
-    </div>
-  
-    <div class="field is-grouped">
-      <div class="control">
-        <button class="button enviar is-link">Enviar</button>
-      </div>
-    </div>
-    
-    </div>
-    </div>
-  
-    <!-- -->
-    </div>
-  
-  </body>
+  </article>
 
-  <!-- footer @mdx -->
-  <footer class="footer">
-        <p>Copyright © 2020 Bridge Games - Todos os direitos reservados</p> 
-  </footer>
-  
-  <style>
-@font-face {
-  font-family: Bunya;
-  src: url(assets/Bunya-Regular_PERSONAL.ttf);
-}
-  body{
-    font-family: Bunya;
-  }
-    /* navbar */
-    .logo {
-      height: 91px;
-      width: 200px;
-      padding: 12px;
-    }
-    .navbar  {
-      background: rgb(0, 0, 0) transparent;
-      background: rgba(0, 0, 0, 0.5);
-    }
-    .breadcrumb, .breadcrumb a, .breadcrumb p {
-      font-size: 20px;   
-      color: white;  
-    }
-    .breadcrumb a:hover {
-      color: bisque; 
-    }   
-    .navbar-icon {
-      padding-top: 7px;
-    }
-    .navbar-burger {
-      padding: 25px 5px 5px;
-    }
-    /* sobre */
-    .m-sobre {
-    }  
-    /* jogos */
-    .m-jogos {
-      margin-top: -8px;
-    }  
-    /* contato */ 
-    .m-contato {
-      background-color: #808080;
-      margin-top: -8px;
-    }
-    .label {
-      color: #E9E9E9;
-    }
-    .control,
-    .textarea,
-    .input
-    {
-      background-color: #C1C1C1;
-    }
-    .button.is-link {
-      background-color: #c1c1c1;
-      border-color: transparent;
-      color: #777777;
-    }
-    .button.is-link:hover, 
-    .button.is-link.is-hovered {
-      background-color: #E9E9E9;
-      border-color: transparent;
-      color: #777777;
-    }
-    /* footer  */ 
-    .footer strong, .footer {
-      margin: 5px 200px;
-      font-size: 12px;
-      color: #808080;
-      text-align: center;
-    }
-    
-    }
-</style>
+  <article class="m-jogos art">
+
+  </article>
+
+  <article class="column is-12 m-contato">
+    <div class="column is-half is-offset-one-quarter">
+      <div class="field">
+        <label class="label">Nome</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Digite seu nome">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="exemplo@exemplo.com">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Mensagem</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Digite seu texto aqui"></textarea>
+        </div>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button enviar is-link">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </article>
+
+<!-- footer @mdx -->
+<footer class="footer">
+  <p>Copyright © 2020 Bridge Games - Todos os direitos reservados</p>
+</footer>
+
+</body>
 </html>
