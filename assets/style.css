@@ -1,10 +1,9 @@
 @font-face {
     font-family: "Bunya";
-    src: url("Bunya-Regular_PERSONAL.ttf");
+    ;;src: url("Bunya-Regular_PERSONAL.ttf");
 }
 
 body {
-    font-family: Bunya !important; 
 }
 
 /* navbar */
