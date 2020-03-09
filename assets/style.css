@@ -50,7 +50,7 @@ body {
     background-size: cover;
     min-width: 100vw !important; 
     min-height: 100vh !important;
-
+    padding-top: 130px;
     /*background-attachment: fixed;*/
 }
 /* sobre */
@@ -74,6 +74,7 @@ body {
 }
 
 .container{
+    border-radius: 10px;
     color: white;
     padding: 30px;
 }
@@ -103,9 +104,9 @@ body {
 }
 
 /* footer  */
-.footer {
-    min-width: 100vw;
+.foot {
     font-size: 18px;
-    color: #808080;
     text-align: center;
+    margin-top: -32px;
+    color: white;
 }
